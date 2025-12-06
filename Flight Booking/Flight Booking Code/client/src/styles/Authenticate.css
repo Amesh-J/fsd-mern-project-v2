@@ -1,0 +1,152 @@
+.AuthenticatePage{
+    width: 100%;
+    height: 100vh;
+    padding-top: 12vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.authForm{
+    padding: 20px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    height: max-content;
+    font-family: 'Work Sans', sans-serif;
+
+    background-color: rgba(255, 255, 255, 0.263);
+    backdrop-filter: blur(10px);
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+    border-radius: 0.5rem;
+
+}
+.authForm h2{
+    margin-bottom: 20px;
+    font-family: 'Poppins', sans-serif;
+    color: rgb(0, 79, 135);
+    font-size: 1.8rem;
+}
+.authFormInputs {
+    width: 100%;
+    height: 50px;
+}
+
+.authFormInputs label{
+    color: rgb(0, 61, 101);
+ 
+}
+.authFormInputs input{
+    color: rgb(0, 61, 101);
+    border: none;
+    outline: none;
+    background-color: rgba(231, 235, 235, 0);
+    border: 1px solid #9dc1d975;
+
+}
+.authForm select {
+    color: rgb(0, 61, 101);
+    border: none;
+    outline: none;
+    background-color: rgba(231, 235, 235, 0);
+    border: 1px solid #9dc1d975;
+    font-size: medium;
+    padding: 15px 10px;
+}
+.authFormInputs input #floatingInput .form-control{
+    padding: 0 !important;
+}
+
+.authForm button{
+    background-color: rgb(0, 108, 197);
+    font-weight: bold;
+    color: rgb(246, 251, 255);
+    height: 50px;
+}
+.authForm p{
+    margin-top: 5%;
+    color: black;
+}
+.authForm p span{
+    margin-top: 5%;
+    color: rgb(0, 68, 107);
+    cursor: pointer;
+}
+
+.authForm label {
+  color: #ffffff !important;
+  font-weight: 500;
+}
+
+.authForm input::placeholder {
+  color: rgba(255, 255, 255, 0.7) !important;
+}
+
+.authForm input {
+  color: #fff !important;
+  background-color: rgba(255, 255, 255, 0.15) !important;
+  border: 1px solid rgba(255, 255, 255, 0.3) !important;
+}
+
+.authForm input:focus {
+  border-color: #00c2ff !important;
+  box-shadow: 0 0 8px #00c2ff !important;
+}
+
+.authForm p span {
+  color: #00e0ff !important;  
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.authForm p span:hover {
+  color: #00f7ff !important;
+  text-decoration: underline;
+}
+
+.authForm .btn-primary {
+  background-color: #00c2ff !important;
+  border-color: #00c2ff !important;
+  font-weight: 600;
+}
+
+.authForm .btn-primary:hover {
+  background-color: #00eaff !important;
+  border-color: #00eaff !important;
+}
+
+.authForm h2 {
+  color: #fff !important;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.form-floating > label {
+  color: rgba(255, 255, 255, 0.8) !important;
+  pointer-events: none;
+}
+
+.form-floating > .form-control {
+  background-color: rgba(255, 255, 255, 0.12) !important;
+  border: 1px solid rgba(255, 255, 255, 0.4) !important;
+  color: #fff !important;
+  padding: 1rem 0.75rem !important;
+}
+
+.form-floating > .form-control:focus {
+  background-color: rgba(255,255,255,0.18) !important;
+  box-shadow: 0 0 8px #00e0ff !important;
+  border-color: #00e0ff !important;
+}
+
+.form-floating > .form-control:not(:placeholder-shown) ~ label,
+.form-floating > .form-control:focus ~ label {
+  opacity: 1;
+  transform: scale(.85) translateY(-1.3rem) translateX(.15rem);
+  background: transparent;
+}
+
+.form-floating .form-control::placeholder {
+  color: transparent !important; 
+}

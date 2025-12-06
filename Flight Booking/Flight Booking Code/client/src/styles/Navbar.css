@@ -1,0 +1,68 @@
+.topbar {
+  width: 100%;
+  backdrop-filter: blur(6px);
+  background: linear-gradient(90deg, rgba(255,255,255,0.04), rgba(255,255,255,0.02));
+  border-bottom: 1px solid rgba(255,255,255,0.04);
+  position: sticky;
+  top: 0;
+  z-index: 60;
+}
+
+.topbar-inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 12px 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.brand {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  cursor: pointer;
+}
+
+.brand-logo {
+  height: 40px;
+  width: 40px;
+}
+
+.brand-name {
+  display: block;
+  font-weight: 700;
+  color: #e6f7ff;
+  letter-spacing: 0.03em;
+}
+
+.brand-tag {
+  display: block;
+  font-size: 12px;
+  color: #bcdff6;
+  opacity: 0.85;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.navBtn {
+  background: linear-gradient(90deg,#6ee7b7,#60a5fa);
+  border: none;
+  color: #06233b;
+  padding: 8px 12px;
+  border-radius: 10px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: transform .12s ease;
+}
+
+.navBtn.small { padding: 6px 8px; font-size: 13px; }
+
+.navBtn:hover { transform: translateY(-2px); box-shadow: 0 8px 20px rgba(9,20,45,0.25); }
+
+.navProfile { display:flex; align-items:center; gap:8px; margin-left:10px; color:#eaf6ff; }
+.profileName { font-weight:600; color:#e6f7ff; }
